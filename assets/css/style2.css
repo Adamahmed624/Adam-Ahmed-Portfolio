@@ -1,0 +1,39 @@
+.portfolio-filter.active {
+  padding: 0.75rem 2rem;
+  border-radius: 0.75rem;
+  background: linear-gradient(
+    to right,
+    #6366f1,
+    #8b5cf6
+  );
+  color: white;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.portfolio-filter.active:hover {
+  box-shadow: 0 10px 25px color-mix(
+    in srgb,
+    #6366f1 50%,
+    transparent
+  );
+}
+#settings-toggle {
+  transition: right 0.3s ease;
+}
+
+#settings-toggle.sidebar-open {
+  right: 20rem;
+}
+
+.font-option.active {
+  border-color: #6366f1;
+  background-color: #f8fafc;
+  .check-container{
+    opacity: 1;
+  }
+}
+
+.dark .font-option.active {
+  background-color: #1e293b;
+}
